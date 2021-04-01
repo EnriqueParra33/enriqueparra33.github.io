@@ -48,6 +48,6 @@ function checkPageBounds(direction, imgWidth, pos, pageWidth) {
   return direction;
 }
 
-setInterval(Run, 200);
+setInterval(Run, 50);
 //Please do not change
 module.exports = checkPageBounds;
