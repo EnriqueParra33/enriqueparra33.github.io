@@ -9,7 +9,7 @@ At the moment there is only one project in this repository.
 
 ## Installation
 
-If you want to replicate the Pac-Man project follow allong these steps:
+If you want to replicate the Pac-Man project follow along these steps:
 1. Open the *PacMan* folder.
 2. Download the contents.
 3. Open the *index.html* file in a web browser and see the animation working.
