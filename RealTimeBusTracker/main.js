@@ -16,11 +16,11 @@ async function addMarkers(){
             moveMarker(marker, bus);
         }
         else{
-            addMarkers(bus);
+            addMarker(bus);
         }
     });
     console.log(new Date());
-    //setTimeout(addMarkers, 15000);
+    setTimeout(addMarkers, 15000);
 }
 
 async function getBusLocations(){
@@ -32,7 +32,7 @@ async function getBusLocations(){
 
 function addMarker(bus){
     var marker = new mapboxgl.Marker()
-        .setLngLat([bus.attributes.longitud, bus.attributes.latitude])
+        .setLngLat([bus.attributes.longitude, bus.attributes.latitude])
         .addTo(map);
     markers.push(marker);
 }
