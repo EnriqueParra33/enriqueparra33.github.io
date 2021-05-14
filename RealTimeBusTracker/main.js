@@ -20,7 +20,7 @@ async function addMarkers(){
         }
     });
     console.log(new Date());
-    setTimeout(addMarkers, 15000);
+    //setTimeout(addMarkers, 15000);
 }
 
 async function getBusLocations(){
