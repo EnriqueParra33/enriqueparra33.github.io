@@ -38,7 +38,7 @@ function addMarker(bus){
 }
 
 function moveMarker(marker, bus){
-    marker.setLngLat([bus.attributes.longitud, bus.attributes.latitude]);
+    marker.setLngLat([bus.attributes.longitude, bus.attributes.latitude]);
 }
 
 function getMarker(id){
