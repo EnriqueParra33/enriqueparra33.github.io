@@ -12,7 +12,7 @@ async function addMarkers(){
     var locations = await getBusLocations();
     locations.forEach(function(bus){
         var marker = getMarker(bus.id);
-        if(marker){
+        if(!(marker === undefined)){
             moveMarker(marker, bus);
         }
         else{
