@@ -11,7 +11,7 @@ At the moment there are three projects in this repository.
 ## Installation
 
 To see how you can install these projects:
-1. Go to <a href="enriqueparra33.github.io"></a>.
+1. Visit my portfolio webpage: <a href="https://enriqueparra33.github.io">Portfolio</a>.
 2. Download the contents.
 3. Open the *index.html* file in a web browser and see the animation working.
 
